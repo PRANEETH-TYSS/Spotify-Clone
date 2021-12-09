@@ -1,0 +1,34 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+.FooterBlock {
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+.FooterBlock div:nth-child(1) svg {
+  fill: #fff;
+  width: 131px;
+  height: 63px;
+}
+.FooterBlock ul li {
+  color: white;
+}
+.conatainer {
+  width: 80%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.conatainer ul {
+  list-style: none;
+}
+.conatainer ul li {
+  line-height: 50px;
+}
+.conatainer ul li:nth-child(1) {
+  color: rgb(77, 73, 73);
+  font-weight: bold;
+}
+.conatainer div span i {
+  color: #fff;
+}
